@@ -6,7 +6,7 @@ const ServicesCard = ({ img, title, description, color }) => {
       className="px-5 py-8 rounded-md cursor-pointer hover:scale-95 duration-300"
       style={{ backgroundColor: `${color}` }}
     >
-      <img className="mb-4" src={img} />
+      <img className="mb-4" alt="service" src={img} />
       <h3 className="text-xl font-bold mb-3">{title}</h3>
       <p className="text-sm">{description}</p>
     </div>

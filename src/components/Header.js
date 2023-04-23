@@ -11,6 +11,7 @@ const Header = ({ data }) => {
         <img
           className="h-12"
           src="https://woxro.com/public/assets/png/woxrologo.png"
+          alt="header"
         />
         <GiHamburgerMenu
           onClick={() => setOpen(true)}
